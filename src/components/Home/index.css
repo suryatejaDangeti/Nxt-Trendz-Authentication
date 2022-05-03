@@ -1,0 +1,93 @@
+/* Write your CSS code here */
+.main-container {
+  margin-top: 2vw;
+}
+
+.home-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 2vw 2vh;
+}
+.home-heading {
+  font-family: roboto;
+  font-size: 30px;
+  color: #1e293b;
+}
+.home-small-img {
+  display: none;
+}
+.home-paragraph {
+  width: 50vw;
+  font-family: roboto;
+  font-size: 14px;
+  color: #64748b;
+  align-self: flex-start;
+}
+.home-large-img {
+  display: flex;
+  width: 30vw;
+  height: 45vh;
+}
+.home-btn {
+  background-color: #0967d2;
+  font-size: 15px;
+  color: #ffffff;
+  font-weight: 600;
+  border: none;
+  border-radius: 5px;
+  width: 120px;
+  height: 35px;
+  align-self: flex-start;
+}
+
+@media screen and (max-width: 576px) {
+  .main-container {
+    margin-top: 2vw;
+  }
+  .home-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+  }
+  .inner-home {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .home-heading {
+    font-family: roboto;
+    font-size: 30px;
+    color: #1e293b;
+  }
+  .home-small-img {
+    display: flex;
+    width: 60vw;
+    height: 35vh;
+  }
+  .home-paragraph {
+    font-family: roboto;
+    font-size: 17px;
+    color: #64748b;
+    align-self: flex-start;
+    width: 90vw;
+  }
+  .home-btn {
+    background-color: #0967d2;
+    font-size: 15px;
+    color: #ffffff;
+    font-weight: 600;
+    border: none;
+    border-radius: 5px;
+    width: 120px;
+    height: 45px;
+    align-self: flex-start;
+  }
+  .home-large-img {
+    display: none;
+  }
+}

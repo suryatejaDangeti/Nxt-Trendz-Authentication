@@ -1,0 +1,83 @@
+/* Write your CSS code here */
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  margin: 3vw 3vh;
+}
+.header-nav-img {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-nxt-img {
+  width: 150px;
+  height: 60px;
+}
+.header-logout-img {
+  display: none;
+  width: 30px;
+  height: 30px;
+}
+.header-home-img {
+  width: 30px;
+  height: 30px;
+}
+
+.nav-img-container {
+  display: none;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  margin: 2vw 2vh;
+}
+.header-names {
+  font-family: roboto;
+  font-size: 15px;
+  color: #64748b;
+  font-weight: 600;
+  margin: 15px;
+  list-style-type: none;
+}
+.log-out-button {
+  background-color: #0b69ff;
+  width: 60px;
+  height: 35px;
+  font-size: 12px;
+  color: #ffffff;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  margin: 15px;
+}
+.nav-header-names {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.link-style {
+  text-decoration: none;
+}
+
+@media screen and (max-width: 576px) {
+  .header-container {
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-top: 3vh;
+    margin: 0px;
+  }
+  .header-logout-img {
+    display: flex;
+  }
+  .list-container {
+    background-color: #e6f6ff;
+    margin-top: 4vw;
+    margin-bottom: 4vw;
+  }
+  .nav-img-container {
+    display: flex;
+  }
+  .nav-header-names {
+    display: none;
+  }
+}
